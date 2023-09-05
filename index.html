@@ -12,7 +12,109 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+          <ul>
+            <h3 id="html-element">HTML elements</h3>
+              <ul>
+                <li>All HTML elements must start with a !DOCTYPE declaration.</li>
+                <li>head - element contains information or metadata about the webpage which helps the browser to render the page correctly.</li>
+                <li>Elements within the head element are not visible to users looking at the webpage.</li>
+                <li>Within the head element, there can be additional tags that can be used such as:</li>
+                  <h4>Tags available in head element</h4>
+                    <ul>
+                      <li>style - element that defines the CSS styles associated with a website.</li>
+                      <li>base - element that defines the base URL for a webpage.</li>
+                      <li>link - element that connects an external resource to the HTML document.</li>
+                      <li>meta - element that defines metadata such as the character set, description, keywords, author, and viewport.</li>
+                      <li>script - element that embeds client-side scripts in the HTML document.</li>
+                      <br>
+                    </ul>
+                <li>body - element contains the content that is shown to the user.</li>
+                <li>All elements that we want the user to interact with and see must be placed inside the body element.</li>
+                <li>In the example < html lang="en" > < html > is the tag and lang="en" is an attribute that defines additional information about the element.</li>
+                <li>The attribute lang="en" refers to the language for the website where "en" = English.</li>
+                <li>title - element defines the title for the webpage. This element is required and used for Search Engine Optimization (SEO).</li>
+                <li>Semantic HTML elements describes its content and the role it plays on a webpage. Example, < section >.</li>
+                <li>An element refers to what is inside the opening and closing tag. Example, "< h1>Panda Fan Site!< /h1>"</li>
+                <li>A tag refers to what is inside the angle brackets. Example, < "h1" >. Here the tag is h1.</li>
+                <li>h1...h6 represents the level of heading in a given text block. h1 is the largest</li>
+                <li>p - element that represents a paragraph or block of text.</li>
+                <li>ul - unordered list</li>
+                <li>ol - ordered list</li>
+                <li>li - list items</li>
+                <li>img - element that contains information about images displayed on the webpage. The src attribute defines the location of the image.</li>
+                <li>Example, < img src="https://example.webpage.com/image-01.jpg" ></li>
+                <li>br - element that creates a line of empty space or a line break between two blocks of content.</li>
+                <li>a - element that creates a link to the same webpage or other webpage which is also referred to as an anchor. The href attribute points to the URL in the anchor.</li>
+                <li>Example, < a href="https://example.webpage.com/some-image/image" >.</li>
+                <li>footer - element that contains the author, copyright, contact, sitemap, and navigation.</li>
+                <li>section - semantic element that defines a section in a webpage that contains thematic content.</li>
+                <li>id - attribute in < section > used as a way to identify elements and select them.</li>
+                <li>class - attribute in < section > ...undefined</li>
+              </ul>
+          </ul>
+      </section>
+
+      <section class="card" id="css-section">
+
+      </section>
+
+      <section class="card" id="git-section">
+        <h2>GIT</h2>
+          <ul>
+            <h3 id="git-basics">GitHub basics</h3>
+              <ul>
+                <li>repository - a folder for your project that contains all the files and their revision history.</li>
+                <li>branch - a separate workspace where changes do not affect the main branch.</li>
+                <li>markdown - the way content files are formatted in GitHub. A way to write for the web using plain text that is easily converted to HTML.</li>
+                <li>commit - saving a new version of a file you are working on whether it is an add, an edit, or a delete. The commit makes changes to the working branch.</li>
+                <li>pull request("PR") - asking for changes in your branch to be pulled or merged into another branch.</li>
+                <li>merge - when a pull request is accepted, changes are "pulled in" or merged into a branch.</li>
+                <li>issue - way to report new tasks or content fixes. Can be used to track progess on a board and labeling issues helps others to track it.</li>
+              </ul>
+            <h3 id="git-flow">GitHub flow</h3>
+              <ol>
+                <li>Create a branch - create a short, descriptive branch name. Allows collaborators a chance to review your work and separate changes from the main branch.</li>
+                <li>Make changes - make changes to your branch, then commit, and then push changes.</li>
+                <li>Address review comments - make changes and commits until reviews/comments have all been addressed.</li>
+                <li>Merge your pull request - one the pull request has been approved, merge the pull request to the main branch.</li>
+                <li>Delete your branch - after merging the pull request, delete your branch to prevent you and others from re-using old branches.</li>
+              </ol>
+            <h3 id="git-terminal">GitHub Terminal commands</h3>
+              <ul>
+                <h4 id="git-command-1">git checkout -b "branch": creates a new branch and switches to it.</h4>
+                  <ul>
+                    <li>git - must precede every Git statement</li>
+                    <li>checkout - command to move the wokring branch to a new branch</li>
+                    <li>-b - flag that creates a new branch</li>
+                    <li>"branch" - name of the new branch</li>
+                  </ul>
+                <h4 id="git-command-2">git add -A</h4>
+                  <ul>
+                    <li>add - command that adds modifications in the current working branch to the staging area. The staging area informs Git changes will be in the next commit.</li>
+                    <li>-A - flag that indicates that we want to add all the changes</li>
+                  </ul>
+                <h4 id="git-command-3">git pull origin main: used to check if any changes were made to the main branch to find conflicts before a merge</h4>
+                  <ul>
+                    <li>pull - command to receive another branch's modifications into the working branch</li>
+                    <li>origin - keyword that indicates the source of the pull will be in the GitHub repo</li>
+                    <li>main - keyword that indicates the branch to pull from</li>
+                  </ul>
+                <h4 id="git-command-3">git push origin "branch"</h4>
+                  <ul>
+                    <li>push - push the changes we have locally to our remote GitHub branch</li>
+                  </ul>
+                <h4 id="git-command-4">git checkout "branch": switches to the branch if not already in it</h4>
+                <h4 id="git-command-5">git status: checks what branch we are currently in</h4>                
+              </ul>
+          </ul>
+
+      </section>
+
+      <section class="card" id="javascript-section">
+
+      </section>
     </main>
 
     <footer>
